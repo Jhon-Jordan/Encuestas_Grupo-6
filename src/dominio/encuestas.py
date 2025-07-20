@@ -19,7 +19,7 @@ class Encuesta:
             except ValueError:
                 self.fecha_registro = None
         else:
-            self.fecha_registro = fecha_registro  # datetime.date or None
+            self.fecha_registro = fecha_registro  
 
     def get_codigo(self):
         return self.codigo
