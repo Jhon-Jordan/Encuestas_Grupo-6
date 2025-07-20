@@ -22,7 +22,7 @@ class EncuestaDao:
             encuesta.pregunta1,
             encuesta.pregunta2,
             encuesta.pregunta3,
-            encuesta.fecha_registro  # datetime.date o None
+            encuesta.fecha_registro  
         )
         try:
             cursor.execute(sql, valores)
@@ -71,7 +71,7 @@ class EncuestaDao:
             encuesta.pregunta1,
             encuesta.pregunta2,
             encuesta.pregunta3,
-            encuesta.fecha_registro,  # datetime.date o None
+            encuesta.fecha_registro,  
             encuesta.codigo
         )
         try:
